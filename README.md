@@ -1,163 +1,46 @@
-````markdown
-# Budget Tracker - Week 2 Assignment
+# Budget Tracker
 
 ## Project Description
 
-This project is a simple Budget Tracker created using HTML and CSS.
+This project is a simple Budget Tracker designed to help users record and organize their expenses. The project was developed using HTML and CSS, with a focus on creating a clean, readable, and user-friendly interface.
 
-The project was continued from the Week 1 Budget Tracker and upgraded with an expense table, an improved expense form, multimedia content, an interactive details section, and advanced CSS selectors.
+## Project Files
 
-## Files
+### index.html
 
-The project contains the following files:
+The `index.html` file contains the structure of the Budget Tracker. It includes the page heading, Add Expense form, input fields, buttons, and expense table.
 
-- `index.html` - Contains the structure and content of the Budget Tracker.
-- `style.css` - Contains the styling and advanced CSS selectors.
-- `README.md` - Explains the project and its features.
+### style.css
 
-## Features
+The `style.css` file controls the visual design of the Budget Tracker. It includes:
 
-### 1. Expense Table
+* A consistent color palette
+* Google Fonts for improved typography
+* Styled headings and text
+* Styled form inputs and buttons
+* Expense table borders and spacing
+* Alternating table row colors
+* Rounded corners
+* Margins and padding using the CSS Box Model
+* Card-style sections for better organization
+* Responsive styling for smaller screens
 
-The Budget Tracker contains a properly structured HTML table using:
+### Design
 
-- `<table>`
-- `<thead>`
-- `<tbody>`
-- `<tr>`
-- `<th>`
-- `<td>`
-
-The table contains four columns:
-
-- Name
-- Amount
-- Category
-- Date
-
-There are also five sample expense records.
-
-The table uses:
-
-- `border-collapse: collapse`
-- Cell padding
-- A colored header
-- Alternating row colors
-- A hover effect
-
-### 2. Add Expense Form
-
-The Add Expense section contains a proper `<form>` element.
-
-It includes:
-
-- Expense name input
-- Amount input
-- Category dropdown
-- Date input
-- Add Expense button
-
-The category dropdown contains:
-
-1. Food
-2. Transport
-3. Rent
-4. Entertainment
-5. Other
-
-The button uses:
-
-```html
-<button type="button">
-````
-
-Each form field has a unique ID that can later be used with JavaScript.
-
-### 3. Multimedia
-
-The project includes an image logo using the `<img>` element.
-
-The image contains:
-
-* `src`
-* `alt`
-* `width`
-
-A YouTube video is also embedded using an `<iframe>` with:
-
-* `width`
-* `height`
-* `title`
-* `frameborder`
-
-### 4. Interactive Element
-
-A collapsible section was added using:
-
-```html
-<details>
-<summary>
-```
-
-The table rows also change appearance when the mouse moves over them.
-
-The button uses:
-
-```css
-cursor: pointer;
-```
-
-### 5. Advanced CSS Selectors
-
-Several advanced CSS selectors were used.
-
-#### Descendant Selector
-
-```css
-.expenses-section td
-```
-
-This targets table cells inside the expenses section.
-
-#### Position Pseudo-class
-
-```css
-tbody tr:nth-child(even)
-```
-
-This gives alternating background colors to the table rows.
-
-#### Negation Pseudo-class
-
-```css
-input:not([type="submit"])
-```
-
-This targets inputs that are not submit buttons.
-
-#### Focus Pseudo-class
-
-```css
-input:focus
-```
-
-This changes the appearance of an input when the user clicks inside it.
-
-## How to Run
-
-1. Download or clone the project.
-2. Open the project folder in VS Code.
-3. Make sure `index.html` and `style.css` are in the same folder.
-4. Open `index.html` in a web browser.
+The application uses a clean green and light-gray color palette. Poppins is used for the main body text, while Playfair Display is used for headings. White card sections provide clear separation between the page heading, Add Expense form, and Expense Table.
 
 ## Technologies Used
 
 * HTML5
 * CSS3
+* Google Fonts
 
-## Future Improvements
+## How to Run
 
-JavaScript can be added in future weeks to make the Add Expense button functional and allow users to dynamically add expenses to the table.
+1. Download or clone this repository.
+2. Open the project folder.
+3. Open `index.html` in a web browser.
 
-```
-```
+## Author
+
+Budget Tracker Project
